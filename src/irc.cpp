@@ -5,12 +5,13 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#ifdef WIN32
 #include <winsock2.h>
+#endif
 #include "irc.h"
 #include "net.h"
 #include "strlcpy.h"
 #include "base58.h"
-//#include <winsock2.h>
 
 using namespace std;
 using namespace boost;
